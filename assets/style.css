@@ -1,0 +1,176 @@
+.container {
+    max-width: 400px;
+}
+
+.content1 {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.content1 .item {
+    display: inline-block;
+    white-space: normal;
+}
+
+.content2,
+.content3,
+.content4,
+.content5,
+.content6,
+.content7,
+.content8,
+.content9,
+.content10,
+.content11,
+.content12,
+.content13 {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 40px;
+}
+
+.content2 .item,
+.content3 .item,
+.content4 .item,
+.content5 .item,
+.content6 .item,
+.content7 .item,
+.content8 .item,
+.content9 .item,
+.content10 .item,
+.content11 .item,
+.content12 .item,
+.content13 .item {
+    display: inline-block;
+    white-space: normal;
+}
+
+.item {
+    margin-right: 20px;
+    max-width: 180px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.top {
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.19);
+}
+
+.gam1 {
+    width: 50px;
+    height: auto;
+    margin-left: 5px;
+}
+
+.nav2 {
+    float: right;
+    margin-top: -50px;
+}
+
+.btn1 {
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 8px 25px 8px 25px;
+}
+
+.bn1 {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.bn2 {
+    width: 100%;
+    margin-top: -11px;
+}
+
+.p1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.prod {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.harg {
+    font-size: 14px;
+    color: orange;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.icn {
+    margin-right: 7px;
+}
+
+.btn2 {
+    padding: 5px 0 5px 0;
+    border-radius: 30px;
+    width: 90%;
+    font-size: 14px;
+    font-size: 600;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.bck1 {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.p2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.gam2 {
+    width: 60px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.fot {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#closed {
+    margin-left: 91%;
+    margin-top: 5px;
+}
+
+#imgMod {
+    width: 70px;
+    height: auto;
+    margin-top: -25px;
+}
+
+#pMod {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(33, 118, 255);
+}
+
+#btnLog {
+    background: linear-gradient(to bottom, #1680ca, #283eb6);
+    width: 65%;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
